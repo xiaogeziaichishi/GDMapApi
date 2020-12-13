@@ -1,4 +1,7 @@
 import com.io.bytes.buffer.BufferedInOutputStreamTest;
+import com.io.chars.buffer.BufferedReaderWrite;
+import com.io.chars.buffer.BufferedReaderWritecopy;
+import com.io.chars.file.FileReaderTest;
 
 /**
  * @author liuguibin
@@ -12,6 +15,7 @@ public class test {
         //FileReaderTest.FileReaderIo();
         //InputStreamReaderTest.getInputStreamReaderIo();
         //OutputStreamWriterTest.getInputStreamReaderIo();
-        BufferedInOutputStreamTest.getBufferedInputStreamIo();
+        //BufferedInOutputStreamTest.getBufferedInputStreamIo();
+        BufferedReaderWritecopy.getBufferedReaderWriteIo();
     }
 }
