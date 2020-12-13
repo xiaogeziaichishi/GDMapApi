@@ -1,4 +1,4 @@
-package com.io.file.bytes;
+package com.io.bytes.file;
 
 import com.io.FilePath;
 
@@ -21,7 +21,7 @@ public class FileOutputStreamTest {
             FileInputStream is = new FileInputStream(FilePath.FILETEXT);
             // true 是追加 ,否则重写
             FileOutputStream os = new FileOutputStream(FilePath.BLANKTEXT,true);
-            byte[] buff = new byte[128];
+            byte[] buff = new byte[10];
             int hasRead = 0;
             //数据保存buff
             while ((hasRead = is.read(buff)) > 0) {

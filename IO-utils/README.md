@@ -1,0 +1,4 @@
+# IO流
+之所以用BufferedReader,而不是直接用BufferedInputStream读取,是因为BufferedInputStream是InputStream的间接子类,<br>
+InputStream的read方法读取的是一个byte,而一个中文占两个byte,所以可能会出现读到半个汉字的情况,就是乱码.<br>
+BufferedReader继承自Reader,该类的read方法读取的是char,所以无论如何不会出现读个半个汉字的.<br>

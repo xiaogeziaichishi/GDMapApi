@@ -1,4 +1,4 @@
-import com.io.file.bytes.FileOutputStreamTest;
+import com.io.bytes.buffer.BufferedInOutputStreamTest;
 
 /**
  * @author liuguibin
@@ -7,9 +7,11 @@ import com.io.file.bytes.FileOutputStreamTest;
 public class test {
     public static void main(String[] args) {
         //FileInputStreamTest.getFileInputStreamIo();
-        FileOutputStreamTest.getFileOutputStreamIo();
+        //FileOutputStreamTest.getFileOutputStreamIo();
         //FileWriterTest.FileWriterIO();
         //FileReaderTest.FileReaderIo();
-
+        //InputStreamReaderTest.getInputStreamReaderIo();
+        //OutputStreamWriterTest.getInputStreamReaderIo();
+        BufferedInOutputStreamTest.getBufferedInputStreamIo();
     }
 }

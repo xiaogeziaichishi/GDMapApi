@@ -1,4 +1,4 @@
-package com.io.file.chars;
+package com.io.chars.file;
 
 import com.io.FilePath;
 

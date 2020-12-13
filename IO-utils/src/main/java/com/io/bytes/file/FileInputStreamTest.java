@@ -1,4 +1,4 @@
-package com.io.file.bytes;
+package com.io.bytes.file;
 
 import com.io.FilePath;
 
