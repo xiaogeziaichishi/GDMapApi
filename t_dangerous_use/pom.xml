@@ -107,8 +107,9 @@
 
 
     <build>
+        <!--自定义报名称-->
+        <finalName>waizai-1.0-SNAPSHOT</finalName>
         <plugins>
-
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-assembly-plugin</artifactId>
